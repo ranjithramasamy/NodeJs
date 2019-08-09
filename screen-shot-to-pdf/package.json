@@ -1,0 +1,21 @@
+{
+  "name": "screen-shot-to-pdf",
+  "version": "1.0.0",
+  "description": "Take a screen shot of given web page and convert it to PDF file",
+  "main": "app.js",
+  "scripts": {
+    "app": "node ./app.js",
+    "app-watch": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ranjith Ramasamy",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^1.19.0"
+  }
+}
